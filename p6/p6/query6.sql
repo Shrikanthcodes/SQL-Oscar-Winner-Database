@@ -1,0 +1,25 @@
+-- Q1
+
+SELECT Actor.Name, MOVIE.Name FROM ACTOR
+INNER JOIN ACTOR_MOVIE_BRIDGE ON actor.ActorID = ACTOR_MOVIE_BRIDGE.ActorID
+INNER JOIN MOVIE ON ACTOR_MOVIE_BRIDGE.MovieID = MOVIE.MovieID
+WHERE MOVIE.No_of_awards > 5  AND MOVIE.Year > 2010;
+
+-- Q2
+
+SELECT MOVIE.Name, MOVIE.Year FROM MOVIE
+INNER JOIN BOXOFFICE on MOVIE.Box_office_no = BOXOFFICE.CertificateNo
+INNER JOIN REVIEW on MOVIE.Box_office_no = REVIEW.Box_office_noWHERE REVIEW.Score < 8
+ORDER BY (BOXOFFICE.Revenue - BOXOFFICE.Budget) DESC LIMIT 5;
+
+-- Q3
+
+SELECT a.NAME, c.Year FROM Actor a
+JOIN ACTOR_NOMINATION_BRIDGE b USING(ActorID)
+JOIN NOMINATIONS c USING(N_ID)
+where c.Year > 2020 and a.No_of_awards > 2;
+
+-- Q4 Real Entries
+
+ SELECT * FROM ACTOR where Name not like "%Random%";
+

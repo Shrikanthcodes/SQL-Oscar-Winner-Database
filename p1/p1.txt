@@ -1,0 +1,33 @@
+PROJECT PROPOSAL:
+
+Idea: Academy Awards Database
+
+The objective of this project is to create a database of information on Oscar awards.
+The database includes tables such as, and not limited to: 
+1) table containing information on award winners, 
+2) table on movies, 
+3) table on categories of awards, 
+4) table for viewer ratings (eg. rotten tomatoes, IMDB), 
+5) table for box office ratings of movies, 
+6) table for award nominations
+7) table containing data on genre of movies
+8) table containing miscellaneous data about movies
+9) tables for Technical/non-technical award categories (such as cinematography, etc)
+
+In this project, I want to use my passion for movies to collect and make sense
+of data about the Academy Awards. I have always loved watching movies, and over the
+lockdown I had the chance to rekindle my passion for the visual art. I believe this
+project is feasible because of the wide availability of data online. Most of this 
+data is available in a fragmented form, and I believe through this project I will be
+able to leverage the database management skills taught in this course to tabulate
+the data in a user friendly manner.
+
+An example of the kind of interesting questions that I believe can be answered in
+this project:
+1) How often do academy award winners work with each other (Do they work with each 
+other more often than they work with other artists, thus increasing their chances 
+to win more awards in the future?)
+2) Has the longevity of actors increased in the last few decades? (based solely on 
+awards data, can we say anything about the career spans of actors?)
+3) Does having a lot of award nominations translate to good box office revenue?
+

@@ -1,4 +1,5 @@
-# SQL-Oscar-Winner-Database
-An SQL Project to try and capture Academy Awards data sourced from Wikipedia (Incomplete) 
+# project-Shrikanthcodes
+project-Shrikanthcodes created by GitHub Classroom
 
-(Latest version can be viewed in P8)
+Student name: Shrikanth Subramanian
+Database project on Academy Awards

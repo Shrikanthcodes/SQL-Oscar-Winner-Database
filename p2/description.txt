@@ -1,0 +1,37 @@
+PROJECT PROPOSAL:
+
+Idea: Academy Awards Database
+
+The objective of this project is to create a database of information on Oscar awards.
+The database includes tables such as, and not limited to: 
+1) table containing information on award winning actors, 
+2) table on movies, 
+3) table on nomination of awards, 
+4) table for genre of movies,
+5) table for box office ratings of movies, 
+6) table for producers
+7) table for technical staff
+
+
+In this project, I want to use my passion for movies to collect and make sense
+of data about the Academy Awards. I have always loved watching movies, and over the
+lockdown I had the chance to rekindle my passion for the visual art. I believe this
+project is feasible because of the wide availability of data online. Most of this 
+data is available in a fragmented form, and I believe through this project I will be
+able to leverage the database management skills taught in this course to tabulate
+the data in a user friendly manner.
+
+An example of the kind of interesting questions that I believe can be answered in
+this project:
+1) How often do academy award winners work with each other (Do they work with each 
+other more often than they work with other artists, thus increasing their chances 
+to win more awards in the future?)
+2) Has the longevity of actors increased in the last few decades? (based solely on 
+awards data, can we say anything about the career spans of actors?)
+3) Does having a lot of award nominations translate to good box office revenue?
+
+The user will be able to interact with the tables using a UI that I will build using django
+framework. The user will be able to see interesting data points and graphs related to the actors 
+and upon request can be shown the relationship between different tables. They will be able to
+gather and accumulate all data relating to their favorite movies, actors, and production houses 
+in one database.

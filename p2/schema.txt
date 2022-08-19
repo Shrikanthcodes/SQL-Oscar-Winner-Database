@@ -1,0 +1,7 @@
+Actor(id actorID pkey, name string not null, No_of_awards int, age int)
+Movie(id MovieID pkey, name string not null, year int, no_of_awards)
+Nomination(id NID pkey, year int not null, category string)
+Producers(id Prod_ID pkey, name string not null, no_of_movies)
+Box_Office(id Certificateno fKey(Movie) pkey, Revenue string not null, Budget int)
+Genre(id GenreID pkey, description string not null)
+Tecnical_Team(id Tech_ID pkey, name string not null, roles string, Experience int)

@@ -1,0 +1,19 @@
+Instructions for populating database:
+* Please run populate_db_large from inside the p6 folder, otherwise you will run into a ".csv not found" error.
+
+Instructions for running web server:
+* Please ensure a copy of the database "academy.db" is available in the folder p7 (same folder as web_server.py) 
+* "academy.db" should contain the database populated using the create_db.sql and populate_db_large.sql files.
+* Libraries and dependancies required include bottle framework and sqlite3 framework in a python3 environment.
+
+Instructions on operating the web server:
+* The first page is the home page ('/'), it will contain the title "Home Page" as well as 4 hyperlinks leading to
+  all the other pages in the web server: info, data, view, credits.
+* The info page ('/Info') contains the information about the project, in this case, that is the abstract of the project
+  that was submitted in week 2. The page contains a hyperlink leading to the home page at the bottom of the page.
+* The data page ('/Data') contains the names of all the tables contained in the database. The page also contains a 
+  hyperlink leading to the home page at the bottom of the page.
+* The credits ('/Credits') page contains the credits section of the project. The page also contains a hyperlink leading
+  to the home page at the bottom of the page.
+* The view ('/view') page contains 2 sample sql queries demonstrating the usage of the database. The page also contains 
+  a hyperlink leading to the home page at the bottom of the page.
